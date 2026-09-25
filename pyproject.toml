@@ -40,13 +40,19 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/timurua/langchain-promptfirewall"
-Repository = "https://github.com/timurua/langchain-promptfirewall"
-Issues = "https://github.com/timurua/langchain-promptfirewall/issues"
-Documentation = "https://github.com/timurua/langchain-promptfirewall#readme"
+Homepage = "https://github.com/TimurRakhmatullin86/langchain-promptfirewall"
+Repository = "https://github.com/TimurRakhmatullin86/langchain-promptfirewall"
+Issues = "https://github.com/TimurRakhmatullin86/langchain-promptfirewall/issues"
+Documentation = "https://github.com/TimurRakhmatullin86/langchain-promptfirewall#readme"
 
 [tool.hatch.build.targets.wheel]
 packages = ["langchain_promptfirewall"]
+
+[tool.hatch.envs.test]
+dependencies = ["pytest"]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest tests/ -v"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

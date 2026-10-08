@@ -2,6 +2,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/langchain-promptfirewall)](https://pypi.org/project/langchain-promptfirewall/)
 [![Python versions](https://img.shields.io/pypi/pyversions/langchain-promptfirewall)](https://pypi.org/project/langchain-promptfirewall/)
+[![CI](https://github.com/TimurRakhmatullin86/langchain-promptfirewall/actions/workflows/ci.yml/badge.svg)](https://github.com/TimurRakhmatullin86/langchain-promptfirewall/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/pypi/dm/langchain-promptfirewall)](https://pypi.org/project/langchain-promptfirewall/)
 
